@@ -80,7 +80,6 @@ static char *get_next_line(int fd)
     line = get_line(stash);
     stash = trim_stash(stash);
     return line;
-    
 }
 
 //#include <stdio.h>
